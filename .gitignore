@@ -30,7 +30,6 @@ render.experimental.xml
 google-services.json
 
 # Android Profiling
-*.hprof
 *.iml
 .gradle
 /local.properties
@@ -55,3 +54,37 @@ local.properties
 /.idea/vcs.xml
 /app/release
 .idea/
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
